@@ -8,6 +8,9 @@ gem 'rails', '3.2.0'
 gem 'sqlite3'
 gem "paperclip", "~> 3.0"
 gem "twitter-bootstrap-rails"
+gem 'jw_player_helper'
+gem 'barista'
+gem "mediaelement_rails", git: "git://github.com/tobsch/mediaelement_rails.git"
 
 # Gems used only for assets and not required
 # in production environments by default.

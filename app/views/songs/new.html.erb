@@ -1,0 +1,12 @@
+<h1>Upload Song</h1>
+
+<%= form_for @song, :html => { :multipart => true } do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %><br />
+
+  <%= f.label :song %>
+  <%= f.file_field :audio %><br>
+  <%= f.submit %>
+<% end %>
+
+<%= link_to 'Back', :action => :show %>

@@ -18,6 +18,7 @@ Warhammer::Application.routes.draw do
 
   # Sample resource route (maps HTTP verbs to controller actions automatically):
   resources :miniatures
+  resources :songs
   
   # Sample resource route with options:
   #   resources :products do

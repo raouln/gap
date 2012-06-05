@@ -1,0 +1,18 @@
+<script>
+    $('audio').mediaelementplayer();
+</script>
+<h1>Songs</h1>
+	
+<% @songs.each do |song| %>
+	Title <%= song.title %><br>
+	<%# video_player({:file => "/public/assets/songs/2/audios/original.mp3"} ) %>
+	<%# mp3_player song.mp3.url %>
+	
+	<br>
+<% end %>
+<%= link_to "Upload song", :action => 'new' %>
+
+
+<audio id="player1" src="./original.mp3" type="audio/mpeg" controls="controls">
+</audio>
+
